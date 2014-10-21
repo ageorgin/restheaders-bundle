@@ -21,7 +21,7 @@ class Configuration implements ConfigurationInterface
     public function getConfigTreeBuilder()
     {
         $treeBuilder = new TreeBuilder();
-        //$rootNode = $treeBuilder->root('ageorgin_rest_headers');
+        $rootNode = $treeBuilder->root('ageorgin_rest_headers');
 
         return $treeBuilder;
     }
