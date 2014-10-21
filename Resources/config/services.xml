@@ -7,7 +7,7 @@
     </parameters>
 
     <services>
-        <service id="restheaders_pagination" class="restheaders.helper.pagination.class">
+        <service id="restheaders_pagination" class="%restheaders.helper.pagination.class%">
             <argument type="service" id="router"/>
         </service>
     </services>
